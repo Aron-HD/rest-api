@@ -3,3 +3,5 @@ node_modules
 build
 NOTES.md
 postman_collection.json
+.prettierrc
+.vscode/
