@@ -11,11 +11,11 @@ export function signJwt(object: Object, options?: jwt.SignOptions | undefined) {
   });
 }
 
-function verifyJwt(token: string) {
+export function verifyJwt(token: string) {
   try {
     const decoded = jwt.verify(token, publicKey);
     return {
-      valid: false,
+      valid: true,
       expired: false,
       decoded
     };
