@@ -5,3 +5,4 @@ NOTES.md
 postman_collection.json
 .prettierrc
 .vscode/
+.env
