@@ -7,6 +7,8 @@
 
 Building out a REST API with Node, Express, MongoDB (Mongoose) and TypeScript.
 
+Credit: [TomDoesTech](https://github.com/TomDoesTech/REST-API-Tutorial-Updated)
+
 ## Dependencies
 
 ```bash
