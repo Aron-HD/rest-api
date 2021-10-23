@@ -3,7 +3,7 @@ require('dotenv').config();
 
 export default {
   port: 1337,
-  dbUri: 'mongodb://localhost:27017/rest-api-tutorial',
+  dbUri: `mongodb+srv://${process.env.DB_USER}:${process.env.DB_USER_PASSWORD}@cluster0.2mnhn.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`,
   saltWorkFactor: 10,
   accessTokenTtl: '15m',
   refreshTokenTtl: '1y',
