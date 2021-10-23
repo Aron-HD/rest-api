@@ -50,6 +50,13 @@ This is deprecated since version 5.0.
 - connect to a MongoDB Atlas cluster / mongoose + express instance
 - use bash to run `mongosh`
 
+#### Option 3
+
+- login to [Atlas](https://cloud.mongodb.com)
+- create a Cluster, and within that a Database
+- create a db user + password (store in `.env` as variables)
+- hit connect > add IP / from anywhere > copy the connection device string to use as dbUri
+
 ---
 
 ## Tokens & Keys
